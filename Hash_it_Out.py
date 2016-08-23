@@ -51,9 +51,6 @@ single byte, the values are 0 to 255 for both message and digest.
 # Modular Multplicative Inverse
 
 # Formula rearranged...
-# message[i-1] ^ digest[i] == (message[i] * 129) % 256
-
-# ...and again
 # message[i] = ((message[i-1] ^ digest[i])* 129) % 256
 
 
