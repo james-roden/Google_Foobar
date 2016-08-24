@@ -54,7 +54,7 @@ single byte, the values are 0 to 255 for both message and digest.
 # message[i] = ((message[i-1] ^ digest[i])* 129) % 256
 
 
-def a(digest):
+def answer(digest):
     message = []
     # Loop through digest and apply formula
     for n in digest:
