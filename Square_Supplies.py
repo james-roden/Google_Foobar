@@ -57,7 +57,7 @@ def answer(n):
         sqr = root**2
         total += sqr
         counter += 1
-        n -= sqry
+        n -= sqr
     return counter
         
         
