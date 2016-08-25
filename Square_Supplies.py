@@ -49,15 +49,10 @@ Created using a tweaked version of Newton's square root method
 def answer(n):
     # Import square root from math
     from math import sqrt
-    total = 0
     counter = 0
     while n > 0:
         # Leveraging Newton's square root law
         root = int(sqrt(n))
-        sqr = root**2
-        total += sqr
+        n -= (root**2)
         counter += 1
-        n -= sqr
     return counter
-        
-        
