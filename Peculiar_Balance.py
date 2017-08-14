@@ -36,7 +36,14 @@ must not be "-". x will always be a positive integer, no larger than 1000000000.
 
 Test cases
 ==========
-
+Inputs:
+    int(x) = 2
+Output:
+    str(["L", "R"])
+Inputs:
+    int(x) = 8
+Output:
+    str(["L", "-", "R"])
 
 Notes
 ==========

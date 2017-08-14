@@ -95,6 +95,10 @@ you.
 
 
 def answer(digest):
+    """
+    As specified
+    """
+
     message = []
     # Loop through digest and apply formula
     for n in digest:
