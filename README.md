@@ -8,7 +8,5 @@ Google Foobar has 8 levels, where level *i* contains exactly *i* problems and ea
 ![Foorbar Status](https://github.com/GISJMR/Google_Foobar/blob/master/Images/Foobar_Status_Sep16.PNG)
 
 ```python
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+import fun
 ```
